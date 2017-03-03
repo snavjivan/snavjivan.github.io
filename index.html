@@ -952,31 +952,7 @@
 
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
-    <script>
-        $("#contactForm").submit(function (event) {
-            var name = $("input#name").val();
-            var email = $("input#email").val();
-            var subject = $("input#subject").val();
-            var message = $("textarea#message").val();
-            event.preventDefault();
-            $.ajax({
-                url: "//forms.brace.io/sarthak.navjivan@gmail.com",
-                method: "POST",
-                data: {
-                    name: name,
-                    subject: subject,
-                    email: email,
-                    message: message
-                },
-                success: function() {
-                    $("#success").fadeIn();
-                },
-                error: function() {
-                    $("#error").fadeIn();
-                }
-            });
-        })
-    </script>
+    
 
     <!-- Custom Theme JavaScript -->
     <script src="js/script.js"></script>
