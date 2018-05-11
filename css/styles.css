@@ -64,9 +64,9 @@ h6 {
   background-color: #222222;
 }
 .btn-orange {
-  color: #ffffff;
-  background-color: #3399fd;
-  border-color: #00cc31;
+  color: black;
+  background-color: white;
+  border-color: #f2b50f;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
@@ -442,7 +442,7 @@ section#home {
   height: auto !important;
 }
 @media (max-width: 768px) {
-  
+
 }
 .service-heading {
   margin: 15px 0;
@@ -706,4 +706,20 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #f90101;
+}
+
+@media screen and (max-width : 550px) {
+  .list-inline {
+    margin-top: 10px;
+  }
+  .resize {
+    font-size: 17.5px;
+  }
+  header {
+    margin-bottom: 26px;
+  }
+}
+
+.text-white {
+  color: white;
 }

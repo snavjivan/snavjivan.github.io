@@ -3,11 +3,11 @@ $(".nav-box").click(function(){
 
 		//hide timeline blocks which are outside the viewport
 		$timeline_block.each(function(){
-				$(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden');
+				$(this).find('.cd-timeline-img, .cd-timeline-content').addClass('bounce-in');
 		});
 
 		//on scolling, show/animate timeline blocks when enter the viewport
-		
+
 });
 
 $(document).ready(function(){
