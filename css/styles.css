@@ -255,7 +255,7 @@ header ul {
 #about {
   background-color: #3399fd;
 }
-#timeline {
+#design {
   background-color: #fe6262;
 }
 #resume {
@@ -339,24 +339,6 @@ section#about {
 }
 section#about .text-primary {
   color: #f2b50f;
-}
-section#timeline a {
-  text-decoration: none;
-  font-family: "Open Sans", sans-serif;
-}
-section#timeline .text-primary {
-  color: #f2b50f;
-}
-section#timeline img {
-  max-width: 100%;
-}
-section#timeline h1,
-section#timeline h2 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
-}
-section#timeline #cd-timeline::before {
-  background-color: #f2b50f;
 }
 section#projects {
   color: black;
